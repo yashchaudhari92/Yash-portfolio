@@ -31,6 +31,9 @@ const Projects = () => {
       description:
         "A smart finance management application designed to help users track expenses, monitor financial activity, and visualize their financial data through an intuitive dashboard. Explore the deployed application to see its available finance management features.",
       tags: [
+        "Java",
+        "Spring Boot",
+        "MySQL",
         "React.js",
         "JavaScript",
         "Tailwind CSS",
@@ -63,6 +66,9 @@ const Projects = () => {
       description:
         "A digital society management application designed to simplify residential administration, including society and flat management, payment workflows, and document handling through a centralized interface.",
       tags: [
+        "Java",
+        "Spring Boot",
+        "MySQL",
         "React.js",
         "Node.js",
         "Express.js",

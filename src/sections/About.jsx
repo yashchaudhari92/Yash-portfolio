@@ -144,12 +144,13 @@ const About = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto rounded-full mb-6"></div>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-3xl mx-auto leading-relaxed">
-            Full Stack Software Engineer and Custom Business Solutions Developer passionate about building robust applications
+            Building scalable web applications and practical software solutions
+            with Java, Spring Boot, React, and modern technologies.
           </p>
         </motion.div>
 
-        <div className="flex flex-col lg:flex-row gap-12 items-center">
-          <div className="lg:w-1/2 flex justify-center">
+        <div className="flex flex-col lg:flex-row gap-12 items-start">
+          <div className="lg:w-1/2 flex justify-center lg:pt-1">
             <div className="relative h-[450px] w-[350px] perspective-1000">
               <motion.div
                 className="relative w-full h-full preserve-3d"
@@ -196,29 +197,36 @@ const About = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.4 }}
             viewport={{ once: true }}
-            className="lg:w-1/2"
+            className="lg:w-1/2 pt-0"
           >
-            <h3 className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-4">
-              Full Stack Software Engineer and Custom Business Solutions Developer
+            <h3 className="text-2xl md:text-3xl font-bold text-gray-800 dark:text-gray-100 mb-5 leading-snug">
+              Full Stack Software Engineer
             </h3>
 
-            <div className="space-y-4 text-gray-600 dark:text-gray-400 mb-8">
+            <div className="space-y-5 text-gray-600 dark:text-gray-300 mb-8 text-justify leading-7">
               <p>
-                I specialize in building robust enterprise applications using
-                Java, Spring Boot, and modern JavaScript frameworks. My focus is
-                on developing efficient, scalable, and well architected
-                solutions that align with business goals.
+                I am a Full Stack Software Engineer focused on building reliable,
+                scalable, and user-friendly web applications. My primary
+                technology stack includes Java, Spring Boot, React, and MySQL,
+                enabling me to develop solutions across both backend services
+                and modern frontend interfaces.
               </p>
+
               <p>
-                With experience across the full development stack, I bridge the
-                gap between strong backend systems and intuitive frontend
-                interfaces to deliver seamless user experiences.
+                I have worked on full-stack applications involving RESTful APIs,
+                database design, authentication and authorization, and
+                third-party integrations. Through projects such as recruitment
+                platforms, management systems, and web-based applications, I
+                focus on translating practical requirements into maintainable
+                software solutions.
               </p>
+
               <p>
-                I believe in writing clean, maintainable code and continuously
-                enhancing my skills to stay updated with evolving technologies.
-                I am committed to building high-quality software solutions that
-                create real impact.
+                Beyond development, I am interested in cloud deployment,
+                DevOps practices, and AI-powered application development. I
+                value clean code, thoughtful problem-solving, and continuous
+                learning, with the goal of delivering software that addresses
+                real business needs.
               </p>
             </div>
 

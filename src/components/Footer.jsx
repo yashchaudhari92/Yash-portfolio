@@ -44,14 +44,14 @@ const Footer = () => {
               </span>
 
               {/* Name - static */}
-              <span className="mx-1">Rachit</span>
+              <span className="mx-1">Yash</span>
 
               {/* Right bracket - rotates counter-clockwise */}
               <span className="text-blue-500 inline-block origin-center animate-spin-slow-reverse">
                 {"/>"}
               </span>
             </h2>
-            <p className="text-gray-400 mt-2">Java Full Stack Developer</p>
+            <p className="text-gray-400 mt-2">Full Stack Software Engineer and Custom Business Solutions Developer</p>
           </motion.div>
 
           {/* Right Section - Social Links */}
@@ -87,7 +87,7 @@ const Footer = () => {
           className=" border-gray-800 mt-4 pt-4 text-center text-gray-400"
         >
           <p>
-            &copy; {new Date().getFullYear()} Rachit Sharma. All rights
+            &copy; {new Date().getFullYear()} Yashwant Chaudhari. All rights
             reserved.
           </p>
         </motion.div>

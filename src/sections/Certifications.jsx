@@ -6,7 +6,7 @@ const certifications = [
   {
     id: "H57k6659AU51MnP998",
     title: "DSA with JAVA",
-    issuer: "GUVI",
+    issuer: "Apna College",
     date: "Oct 2025",
     link: "https://www.guvi.in/share-certificate/H57k6659AU51MnP998",
     skills: ["Problem Solving", "Logic", "Algorithms"],
@@ -15,7 +15,7 @@ const certifications = [
   {
     id: "Y71734xG6H3A7r36j4",
     title: "System Design",
-    issuer: "GUVI",
+    issuer: "Coursera",
     date: "November 2025",
     link: "https://www.guvi.in/share-certificate/Y71734xG6H3A7r36j4",
     skills: [
@@ -38,7 +38,7 @@ const certifications = [
   {
     id: "EnS6Qap2781571j740",
     title: "HTML & CSS",
-    issuer: "GUVI",
+    issuer: "Infosys Spring Board",
     date: "June 2025",
     link: "https://www.guvi.in/share-certificate/EnS6Qap2781571j740",
     skills: ["HTML5", "CSS3", "Responsive Design"],
@@ -48,7 +48,7 @@ const certifications = [
   {
     id: "JY4W34O75461MdD01Z",
     title: "JAVASCRIPT",
-    issuer: "GUVI",
+    issuer: "Infosys Spring Board",
     date: "July 2025",
     link: "https://www.guvi.in/share-certificate/JY4W34O75461MdD01Z",
     skills: ["ES6+", "DOM Manipulation", "Async/Await"],
@@ -58,8 +58,8 @@ const certifications = [
   {
     id: "Y48F1W850h7m515B8A",
     title: "AWS Cloud Practitioner",
-    issuer: "GUVI",
-    date: "Aug 2025",
+    issuer: "AWS",
+    date: "June 2026",
     link: "https://www.guvi.in/share-certificate/Y48F1W850h7m515B8A",
     skills: ["EC2", "S3", "Cloud Security", "Amplify"],
     gradient: "from-orange-400 to-amber-600",
@@ -67,8 +67,8 @@ const certifications = [
   {
     id: "0Kc2Ww1C6s412474u1",
     title: "ChatGPT & AI Tools",
-    issuer: "GUVI",
-    date: "April 2025",
+    issuer: "Be10X",
+    date: "Aug 2026",
     link: "https://www.guvi.in/share-certificate/0Kc2Ww1C6s412474u1",
     skills: ["Prompt Engineering", "AI Integration"],
     gradient: "from-teal-400 to-emerald-600",
