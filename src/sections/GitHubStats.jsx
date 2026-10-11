@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 
 const GitHubStats = () => {
-    // Replace 'rachitsharma300' with your actual GitHub username
-    const githubUsername = "rachitsharma300";
+
+    const githubUsername = "yashchaudhari92";
 
     return (
         <section
@@ -32,10 +32,10 @@ const GitHubStats = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6 }}
                     viewport={{ once: true }}
-                    className="grid grid-cols-1 lg:grid-cols-2 gap-6 max-w-7xl mx-auto"
+                    className="flex justify-center w-full px-4"
                 >
                     {/* Contribution Activity Graph */}
-                    <motion.div
+                    {/* <motion.div
                         whileHover={{ scale: 1.02, y: -5 }}
                         transition={{ duration: 0.3 }}
                         className="bg-white dark:bg-dark-800 rounded-2xl shadow-lg dark:shadow-2xl overflow-hidden border border-gray-200 dark:border-dark-700 p-6"
@@ -52,19 +52,19 @@ const GitHubStats = () => {
                         </h3>
                         <div className="flex justify-center items-center bg-gradient-to-br from-gray-50 to-gray-100 dark:from-dark-900 dark:to-dark-800 rounded-xl p-4 overflow-x-auto">
                             <img
-                                src={`https://github-readme-activity-graph.vercel.app/graph?username=${githubUsername}&theme=react-dark&hide_border=true&bg_color=0D1117&color=7C3AED&line=3B82F6&point=60A5FA&area=true&area_color=3B82F6`}
+                                src={`https://github-readme-activity-graph.vercel.app/graph?username=${githubUsername}&theme=react-dark&hide_border=true&area=true`}
                                 alt="GitHub Activity Graph"
                                 className="w-full h-auto"
                                 loading="lazy"
                             />
                         </div>
-                    </motion.div>
+                    </motion.div> */}
 
                     {/* GitHub Streak */}
                     <motion.div
                         whileHover={{ scale: 1.02, y: -5 }}
                         transition={{ duration: 0.3 }}
-                        className="bg-white dark:bg-dark-800 rounded-2xl shadow-lg dark:shadow-2xl overflow-hidden border border-gray-200 dark:border-dark-700 p-6"
+                        className="w-full max-w-2xl bg-white dark:bg-dark-800 rounded-2xl shadow-lg dark:shadow-2xl overflow-hidden border border-gray-200 dark:border-dark-700 p-6"
                     >
                         <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200 mb-4 flex items-center gap-2">
                             <svg
