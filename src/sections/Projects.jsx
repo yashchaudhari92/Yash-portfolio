@@ -39,7 +39,7 @@ const Projects = () => {
       ],
       githubLink: "",
       liveLink: "https://fintrack-ai-based-smart-finance-and.vercel.app/",
-      videoUrl: "",
+      videoUrl: "https://youtu.be/ljoZ8sfU02w",
       version: "v1.0",
     },
     {
@@ -55,7 +55,7 @@ const Projects = () => {
       ],
       githubLink: "",
       liveLink: "https://talent-iq-intelligent-candidate-eva.vercel.app/",
-      videoUrl: "",
+      videoUrl: "https://youtu.be/vvKdEV-6F-Q",
       version: "v1.0",
     },
     {
@@ -72,7 +72,7 @@ const Projects = () => {
       ],
       githubLink: "",
       liveLink: "https://society-ms-digital-society-manageme.vercel.app/",
-      videoUrl: "",
+      videoUrl: "https://youtu.be/dWXMbOyTy9A",
       version: "v1.0",
     },
     {

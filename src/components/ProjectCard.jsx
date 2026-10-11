@@ -22,6 +22,42 @@ const ProjectCard = ({
 
   const isEven = index % 2 === 0;
 
+
+  const getYouTubeEmbedUrl = (url) => {
+    if (!url) return null;
+
+    try {
+      const parsedUrl = new URL(url);
+      let videoId = "";
+
+      if (parsedUrl.hostname === "youtu.be") {
+        videoId = parsedUrl.pathname.slice(1);
+      } else if (
+        ["youtube.com", "www.youtube.com", "m.youtube.com"].includes(
+          parsedUrl.hostname
+        )
+      ) {
+        if (parsedUrl.pathname === "/watch") {
+          videoId = parsedUrl.searchParams.get("v") || "";
+        } else if (
+          parsedUrl.pathname.startsWith("/embed/") ||
+          parsedUrl.pathname.startsWith("/shorts/")
+        ) {
+          videoId = parsedUrl.pathname.split("/")[2] || "";
+        }
+      }
+
+      return videoId
+        ? `https://www.youtube.com/embed/${videoId}`
+        : null;
+    } catch {
+      return null;
+    }
+  };
+
+  const youtubeEmbedUrl = getYouTubeEmbedUrl(videoUrl);
+
+
   return (
     <motion.div
       ref={ref}
@@ -45,16 +81,31 @@ const ProjectCard = ({
           {/* Glow Effect */}
           <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-500"></div>
 
+
           {videoUrl ? (
-            <video
-              src={videoUrl}
-              className="relative w-full h-full object-cover z-10 pointer-events-none"
-              autoPlay
-              loop
-              muted
-              playsInline
-            />
+            youtubeEmbedUrl ? (
+              <iframe
+                src={youtubeEmbedUrl}
+                title={`${title} demo video`}
+                className="absolute inset-0 w-full h-full z-10"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+                loading="lazy"
+              />
+            ) : (
+              <video
+                src={videoUrl}
+                className="relative w-full h-full object-cover z-10"
+                autoPlay
+                loop
+                muted
+                playsInline
+                controls
+              />
+            )
           ) : (
+
             <div className="relative w-full h-full flex items-center justify-center bg-gradient-to-br from-gray-900 to-gray-800 z-10">
               <h3 className="text-3xl font-bold text-white/20">{title}</h3>
             </div>
