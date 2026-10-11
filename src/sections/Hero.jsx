@@ -108,18 +108,18 @@ const Hero = () => {
           <h1 className="text-4xl md:text-6xl font-bold text-gray-800 dark:text-gray-200 mb-4">
             Hi, I'm{" "}
             <span className="text-blue-600 dark:text-blue-400">
-              Rachit Sharma
+              Yashwant Chaudhari
             </span>
           </h1>
           <div className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 mb-8 h-8">
             <Typewriter
               options={{
                 strings: [
-                  "Aspiring Full Stack Java Developer",
-                  "Building Full Stack Projects",
-                  "Spring Boot Learner",
-                  "React Enthusiast",
-                  "Passionate Java Developer",
+                  "Java Full Stack Developer",
+                  "Software Engineer",
+                  "Spring Boot & React Developer",
+                  "Building Scalable Web Applications",
+                  "Cloud & Microservices Enthusiast",
                 ],
                 autoStart: true,
                 loop: true,
@@ -129,6 +129,7 @@ const Hero = () => {
             />
           </div>
 
+
           <div className="flex flex-wrap justify-center gap-4 mb-12">
             <motion.a
               href="#projects"
@@ -137,26 +138,29 @@ const Hero = () => {
             >
               View My Work
             </motion.a>
+
             <motion.a
-              href="/resume.pdf"
-              download
+              href="/Yashwant_Chaudhari_1.pdf"
+              download="Yashwant_Chaudhari_Resume.pdf"
               whileHover={{ scale: 1.05 }}
               className="flex items-center gap-2 border border-blue-600 text-blue-600 hover:bg-blue-50 dark:hover:bg-dark-700 px-6 py-3 rounded-lg font-medium transition"
             >
-              <HiDocumentDownload /> Resume
+              <HiDocumentDownload />
+              View Resume
             </motion.a>
           </div>
 
+
           <div className="flex justify-center gap-6">
             <a
-              href="https://github.com/rachitsharma300"
+              href="https://github.com/yashchaudhari92"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaGithub className="text-2xl text-gray-700 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400 transition" />
             </a>
             <a
-              href="https://linkedin.com/in/rachitsharma300"
+              href="https://www.linkedin.com/in/yashwant-chaudhari-981589257/"
               target="_blank"
               rel="noopener noreferrer"
             >

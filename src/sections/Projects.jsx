@@ -5,24 +5,75 @@ import { motion } from "framer-motion";
 const Projects = () => {
   // Java (Spring Boot, Monolithic), React.js, JavaScript, MongoDB, AWS, Docker
   const projects = [
+    // {
+    //   title: "Patna Metro Route Finder Voice Assistant",
+    //   description:
+    //     "Developed a first-of-its-kind Patna Metro Route Finder web application, providing users with accurate live metro routes, fare calculation, and distance details. Integrated an intelligent chatbot assistant to offer seamless query support and enhance user experience",
+    //   tags: [
+    //     "Java",
+    //     "Spring Boot",
+    //     "Monolithic",
+    //     "React.js",
+    //     "MongoDB",
+    //     "Docker",
+    //     "AWS",
+    //   ],
+    //   githubLink: "https://github.com/rachitsharma300/Patna-Metro",
+    //   liveLink: "https://www.patnametromap.in/",
+    //   videoUrl:
+    //     "https://github.com/user-attachments/assets/a815c282-29fa-4318-af81-52f6d5ec7c73",
+    //   version: "v2.0",
+    // },
+
+
     {
-      title: "Patna Metro Route Finder Voice Assistant",
+      title: "FinTrack — AI-Based Smart Finance",
       description:
-        "Developed a first-of-its-kind Patna Metro Route Finder web application, providing users with accurate live metro routes, fare calculation, and distance details. Integrated an intelligent chatbot assistant to offer seamless query support and enhance user experience",
+        "A smart finance management application designed to help users track expenses, monitor financial activity, and visualize their financial data through an intuitive dashboard. Explore the deployed application to see its available finance management features.",
       tags: [
-        "Java",
-        "Spring Boot",
-        "Monolithic",
         "React.js",
-        "MongoDB",
-        "Docker",
-        "AWS",
+        "JavaScript",
+        "Tailwind CSS",
+        "AI Integration",
+        "Finance Management",
       ],
-      githubLink: "https://github.com/rachitsharma300/Patna-Metro",
-      liveLink: "https://www.patnametromap.in/",
-      videoUrl:
-        "https://github.com/user-attachments/assets/a815c282-29fa-4318-af81-52f6d5ec7c73",
-      version: "v2.0",
+      githubLink: "",
+      liveLink: "https://fintrack-ai-based-smart-finance-and.vercel.app/",
+      videoUrl: "",
+      version: "v1.0",
+    },
+    {
+      title: "TalentIQ — Intelligent Candidate Evaluation",
+      description:
+        "An AI-powered recruitment platform focused on simplifying candidate evaluation and recruitment workflows. Designed to help streamline resume analysis and candidate assessment through an intuitive web interface.",
+      tags: [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "AI Integration",
+      ],
+      githubLink: "",
+      liveLink: "https://talent-iq-intelligent-candidate-eva.vercel.app/",
+      videoUrl: "",
+      version: "v1.0",
+    },
+    {
+      title: "Society Management System",
+      description:
+        "A digital society management application designed to simplify residential administration, including society and flat management, payment workflows, and document handling through a centralized interface.",
+      tags: [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT",
+        "Tailwind CSS",
+      ],
+      githubLink: "",
+      liveLink: "https://society-ms-digital-society-manageme.vercel.app/",
+      videoUrl: "",
+      version: "v1.0",
     },
     {
       title: "Learning Management System (LMS)",
@@ -89,17 +140,17 @@ const Projects = () => {
         "https://github.com/user-attachments/assets/6748bef8-d791-4b2d-99fa-ac3488b0c1b1",
       version: "v1.0",
     },
-    {
-      title: "ByteBuzz Chat App",
-      description:
-        "Developed Bytebuzz, a real-time chat platform using Spring Boot (WebSocket) and React, enabling low-latency one-to-one and group messaging with a responsive UI and scalable backend.",
-      tags: ["Java", "Spring Boot", "WebSocket", "React", "MongoDB", "Docker"],
-      githubLink: "https://github.com/rachitsharma300/bytebuzz-chat-app",
-      liveLink: "https://byte-buzz-chat-app.netlify.app/",
-      videoUrl:
-        "https://github.com/user-attachments/assets/33c87b82-af57-4746-acd4-31f8a96189fc",
-      version: "v1.5",
-    },
+    // {
+    //   title: "ByteBuzz Chat App",
+    //   description:
+    //     "Developed Bytebuzz, a real-time chat platform using Spring Boot (WebSocket) and React, enabling low-latency one-to-one and group messaging with a responsive UI and scalable backend.",
+    //   tags: ["Java", "Spring Boot", "WebSocket", "React", "MongoDB", "Docker"],
+    //   githubLink: "https://github.com/rachitsharma300/bytebuzz-chat-app",
+    //   liveLink: "https://byte-buzz-chat-app.netlify.app/",
+    //   videoUrl:
+    //     "https://github.com/user-attachments/assets/33c87b82-af57-4746-acd4-31f8a96189fc",
+    //   version: "v1.5",
+    // },
     {
       title: "Weather Web App",
       description:
@@ -144,10 +195,12 @@ const Projects = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 bg-clip-text text-transparent inline-block">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 px-3 py-1 inline-flex bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 bg-clip-text text-transparent">
             Projects
           </h2>
+
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto rounded-full mb-6"></div>
+
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-3xl mx-auto leading-relaxed">
             A showcase of technical craftsmanship and creative problem-solving.
           </p>

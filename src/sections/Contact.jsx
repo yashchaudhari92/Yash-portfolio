@@ -84,19 +84,19 @@ const Contact = ({ isOpen, onToggle }) => {
               <div className="flex items-center gap-3">
                 <FaMapMarkerAlt className="text-blue-600 dark:text-blue-400" />
                 <span className="text-gray-600 dark:text-gray-400">
-                  Gurugram, India
+                  Pune, India
                 </span>
               </div>
               <div className="flex items-center gap-3">
                 <FaPhone className="text-blue-600 dark:text-blue-400" />
                 <span className="text-gray-600 dark:text-gray-400">
-                  +91 9871874041
+                  +91 8805619892 || +91 9356614480
                 </span>
               </div>
               <div className="flex items-center gap-3">
                 <FaEnvelope className="text-blue-600 dark:text-blue-400" />
                 <span className="text-gray-600 dark:text-gray-400">
-                  rachitsharma300@outlook.com
+                  yvchaudhari7171@gmail.com
                 </span>
               </div>
             </div>

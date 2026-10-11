@@ -26,15 +26,15 @@ const certifications = [
     ],
     gradient: "from-indigo-500 to-purple-600",
   },
-    {
-    id: "16F37373865JS8t09T",
-    title: "Agile Fundamentals",
-    issuer: "GUVI",
-    date: "November 2025",
-    link: "https://www.guvi.in/share-certificate/16F37373865JS8t09T",
-    skills: ["Scrum", "Kanban", "Project Management"],
-    gradient: "from-indigo-400 to-purple-600",
-  },
+  //   {
+  //   id: "16F37373865JS8t09T",
+  //   title: "Agile Fundamentals",
+  //   issuer: "GUVI",
+  //   date: "November 2025",
+  //   link: "https://www.guvi.in/share-certificate/16F37373865JS8t09T",
+  //   skills: ["Scrum", "Kanban", "Project Management"],
+  //   gradient: "from-indigo-400 to-purple-600",
+  // },
   {
     id: "EnS6Qap2781571j740",
     title: "HTML & CSS",
@@ -132,7 +132,7 @@ const CertificateCard = ({ cert, index }) => {
             {cert.date}
           </span>
 
-          {!cert.isPending ? (
+          {/* {!cert.isPending ? (
             <a
               href={cert.link}
               target="_blank"
@@ -145,7 +145,7 @@ const CertificateCard = ({ cert, index }) => {
             <span className="text-xs font-bold text-amber-500 bg-amber-50 dark:bg-amber-900/20 px-2 py-1 rounded">
               In Progress
             </span>
-          )}
+          )} */}
         </div>
       </div>
     </motion.div>

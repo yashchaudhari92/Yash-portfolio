@@ -7,22 +7,22 @@ const Footer = () => {
     {
       name: "GitHub",
       icon: <FaGithub className="text-xl" />,
-      url: "https://github.com/rachitsharma300",
+      url: "https://github.com/yashchaudhari92",
     },
     {
       name: "LinkedIn",
       icon: <FaLinkedin className="text-xl" />,
-      url: "https://www.linkedin.com/in/rachitsharma300/",
+      url: "https://www.linkedin.com/in/yashwant-chaudhari-981589257/",
     },
-    {
-      name: "Twitter",
-      icon: <FaTwitter className="text-xl" />,
-      url: "https://x.com/rachitsharma300",
-    },
+    // {
+    //   name: "Twitter",
+    //   icon: <FaTwitter className="text-xl" />,
+    //   url: "https://x.com/rachitsharma300",
+    // },
     {
       name: "Email",
       icon: <FaEnvelope className="text-xl" />,
-      url: "mailto:rachitsharma300@outlook.com",
+      url: "mailto:yvchaudhari7171@gmail.com",
     },
   ];
 

@@ -1,8 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import { motion, useAnimation } from "framer-motion";
 import { useEffect } from "react";
-import profilePhoto1 from "../assets/Rachit.png";
-import profilePhoto2 from "../assets/Rachit1.jpeg";
+import profilePhoto1 from "../assets/Yash.png";
+import profilePhoto2 from "../assets/Yash1.jpg";
 
 const About = () => {
   const controls = useAnimation();
@@ -101,6 +101,29 @@ const About = () => {
       ),
       name: "MySQL",
     },
+
+    {
+      icon: (
+        <img
+          src="https://techstack-generator.vercel.app/aws-icon.svg"
+          alt="AWS"
+          width="65"
+          height="65"
+        />
+      ),
+      name: "AWS",
+    },
+    {
+      icon: (
+        <img
+          src="https://techstack-generator.vercel.app/kubernetes-icon.svg"
+          alt="Kubernetes"
+          width="65"
+          height="65"
+        />
+      ),
+      name: "Kubernetes",
+    },
   ];
 
   return (
@@ -121,7 +144,7 @@ const About = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto rounded-full mb-6"></div>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-3xl mx-auto leading-relaxed">
-            Full Stack Java Developer passionate about building robust applications
+            Full Stack Software Engineer and Custom Business Solutions Developer passionate about building robust applications
           </p>
         </motion.div>
 
@@ -136,7 +159,7 @@ const About = () => {
                 <div className="absolute w-full h-full backface-hidden">
                   <img
                     src={profilePhoto1}
-                    alt="Rachit Sharma"
+                    alt="Yashwant Chaudhari"
                     className="w-full h-full object-cover rounded-xl border-4 border-white dark:border-dark-700 shadow-xl"
                   />
                 </div>
@@ -147,9 +170,9 @@ const About = () => {
                   style={{ transform: "rotateY(180deg)" }}
                 >
                   <div>
-                    <h3 className="text-xl font-bold mb-2">Rachit Sharma</h3>
-                    <p className="text-sm">Full Stack Developer</p>
-                    <p className="text-xs mt-4">Specializing in Java & React</p>
+                    <h3 className="text-xl font-bold mb-2">Yashwant Chaudhari</h3>
+                    <p className="text-sm">Full Stack Software Engineer</p>
+                    <p className="text-xs mt-4">Specializing in Java, Spring Boot, MySQl, React, and DevOPS</p>
                   </div>
                 </div>
 
@@ -160,7 +183,7 @@ const About = () => {
                 >
                   <img
                     src={profilePhoto2}
-                    alt="Rachit Sharma"
+                    alt="Yashwant Chaudhari"
                     className="w-full h-full object-cover rounded-xl border-4 border-white dark:border-dark-700 shadow-xl"
                   />
                 </div>
@@ -176,7 +199,7 @@ const About = () => {
             className="lg:w-1/2"
           >
             <h3 className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-4">
-              Java Full Stack Developer
+              Full Stack Software Engineer and Custom Business Solutions Developer
             </h3>
 
             <div className="space-y-4 text-gray-600 dark:text-gray-400 mb-8">

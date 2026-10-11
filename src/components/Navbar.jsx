@@ -46,7 +46,7 @@ export default function Navbar({ onContactClick }) {
             <span className="text-blue-600 dark:text-blue-400 inline-block origin-center animate-spin-slow">
               {"<"}
             </span>
-            <span className="mx-1">Rachit</span>
+            <span className="mx-1">Yash</span>
             <span className="text-blue-600 dark:text-blue-400 inline-block origin-center animate-spin-slow-reverse">
               {"/>"}
             </span>
@@ -86,7 +86,7 @@ export default function Navbar({ onContactClick }) {
             <div className="flex justify-between items-center mb-12">
               <h1 className="text-2xl font-bold text-gray-800 dark:text-gray-200">
                 <span className="text-blue-600 dark:text-blue-400">{"<"}</span>
-                Rachit
+                Yash
                 <span className="text-blue-600 dark:text-blue-400">{"/>"}</span>
               </h1>
               <div onClick={() => setNav(false)} className="cursor-pointer">

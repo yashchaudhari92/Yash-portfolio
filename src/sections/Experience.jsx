@@ -4,74 +4,54 @@ import { FaBriefcase, FaGraduationCap, FaCode, FaLaptopCode, FaRocket } from "re
 const Experience = () => {
     const journeyData = [
         {
-            year: "2015",
+            year: "2020",
             title: "Matriculation (10th Standard)",
-            organization: "BSEB Board",
-            description: "Completed matriculation with 70%",
+            organization: "SSC Board",
+            description: "Completed matriculation with 82%",
             type: "education",
             icon: FaGraduationCap,
             color: "from-emerald-500 to-teal-500",
             bgGlow: "bg-emerald-500/20",
         },
         {
-            year: "2015-2018",
-            title: "Diploma in Civil Engineering",
-            organization: "Government Polytechnic Manesar, Gurugram",
-            description: "Completed diploma in Civil Engineering with 65%, building foundation in technical education",
+            year: "2020-2022",
+            title: "Secondary High School (12th)",
+            organization: "Rashtriya Junior College, Sambhaji Nagar",
+            description: "Completed 12th with 71.83%, building foundation in technical education",
             type: "education",
             icon: FaGraduationCap,
             color: "from-green-500 to-emerald-500",
             bgGlow: "bg-green-500/20",
         },
         {
-            year: "2019",
-            title: "Career Transition & Exploration",
-            organization: "Self-Directed Learning",
-            description: "Prepared for JE government exams while taking on part-time jobs. Explored career opportunities and discovered passion for software development",
-            type: "milestone",
-            icon: FaCode,
+            year: "2022-2026",
+            title: "Bachelor Of Technology (Information Technology)",
+            organization: "Shri Vile Parle Kelwani Mandal, Institute of Technology, Dhule",
+            description: "Built a strong foundation in software development, data structures, databases, and web technologies while developing practical projects using Java, Spring Boot, React, and MySQL.",
+            type: "education",
+            icon: FaGraduationCap,
             color: "from-amber-500 to-orange-500",
             bgGlow: "bg-amber-500/20",
         },
         {
-            year: "2020-2023",
-            title: "B. Tech, Computer Science",
-            organization: "GRD Institute of Management & Technology, Dehradun",
-            description: "Graduated with Honours - 76.4%. Specialized in full-stack development, data structures, and software engineering",
-            type: "education",
-            icon: FaGraduationCap,
-            color: "from-blue-500 to-cyan-500",
-            bgGlow: "bg-blue-500/20",
-        },
-        {
-            year: "Jul 2023 - Apr 2024",
-            title: "Software Developer Intern",
-            organization: "Soft Wind Technology, Faridabad",
-            description: "Developed and maintained full-stack features for e-commerce platforms using Java, Spring Boot, and React.js. Optimized performance and enhanced user experience in a fast-paced startup environment",
+            year: "Feb 2026 - Aug 2026",
+            title: "Full Stack Developer Intern",
+            organization: "Ezio InfoTech Pvt Ltd.",
+            description: "Developed and maintained full-stack web applications using Java, Spring Boot, React.js, and MySQL. Implemented REST APIs, integrated frontend components with backend services, managed database operations, and contributed to building responsive, user-friendly applications for real-world business requirements.",
             type: "work",
             icon: FaBriefcase,
             color: "from-violet-500 to-purple-500",
             bgGlow: "bg-violet-500/20",
         },
         {
-            year: "May-Jun 2025",
+            year: "Aug 2026 - Present",
             title: "Freelance Full Stack Developer",
-            organization: "Jagdamba Nursing Health Care",
-            description: "Built comprehensive healthcare platform with patient care modules and real-time notification system using Firebase. Delivered scalable solutions for healthcare management",
+            organization: "Independent Projects & Client Solutions",
+            description: "Building full-stack web applications using Java, Spring Boot, React.js, and MySQL. Focusing on REST API development, responsive user interfaces, database management, authentication, and scalable software solutions tailored to business requirements.",
             type: "freelance",
             icon: FaLaptopCode,
             color: "from-pink-500 to-rose-500",
             bgGlow: "bg-pink-500/20",
-        },
-        {
-            year: "Jul 2025",
-            title: "Freelance Web Developer",
-            organization: "Perfect Swasth Healthcare",
-            description: "Developed static website showcasing medicines, company details, and order tracking features with modern UI/UX design",
-            type: "freelance",
-            icon: FaLaptopCode,
-            color: "from-fuchsia-500 to-pink-500",
-            bgGlow: "bg-fuchsia-500/20",
         },
     ];
 
@@ -107,9 +87,11 @@ const Experience = () => {
                     <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 bg-clip-text text-transparent">
                         My Journey
                     </h2>
+
                     <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto rounded-full mb-6"></div>
+
                     <p className="text-lg text-gray-600 dark:text-gray-400 max-w-3xl mx-auto leading-relaxed">
-                        From civil engineering to full-stack development - A story of transformation, learning, and growth
+                        From learning programming fundamentals to building full-stack applications — a journey of continuous learning, real-world projects, and a passion for software engineering.
                     </p>
                 </motion.div>
 

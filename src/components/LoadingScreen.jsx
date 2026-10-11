@@ -38,7 +38,7 @@ const LoadingScreen = () => {
                         >
                             {"<"}
                         </motion.span>
-                        <span className="mx-2">Rachit</span>
+                        <span className="mx-2">Yash</span>
                         <motion.span
                             animate={{ rotate: -360 }}
                             transition={{ duration: 2, repeat: Infinity, ease: "linear" }}
