@@ -90,7 +90,7 @@ const Projects = () => {
         "Render",
         "Netlify",
       ],
-      githubLink: "https://github.com/rachitsharma300/LMS",
+      // githubLink: "https://github.com/rachitsharma300/LMS",
       liveLink: "https://learnprofessional.netlify.app/",
       videoUrl:
         "https://github.com/user-attachments/assets/baa2f9f0-0512-4c1d-b25d-61c23470e59c",
@@ -113,7 +113,7 @@ const Projects = () => {
         "Render",
         "Netlify",
       ],
-      githubLink: "https://github.com/rachitsharma300/DOS",
+      // githubLink: "https://github.com/rachitsharma300/DOS",
       liveLink: "https://dynamic-online-shopping.netlify.app/",
       videoUrl: "https://github.com/user-attachments/assets/9abb194a-36b3-4e09-96eb-3e4fdc9d243d",
       version: "v1.0",
@@ -134,7 +134,7 @@ const Projects = () => {
         "Render",
         "Netlify",
       ],
-      githubLink: "https://github.com/rachitsharma300/StayEase",
+      // githubLink: "https://github.com/rachitsharma300/StayEase",
       liveLink: "https://stay-ease-hms.netlify.app/",
       videoUrl:
         "https://github.com/user-attachments/assets/6748bef8-d791-4b2d-99fa-ac3488b0c1b1",
@@ -164,7 +164,7 @@ const Projects = () => {
         "CSS",
         "JavaScript",
       ],
-      githubLink: "https://github.com/rachitsharma300/Weather-Web-App",
+      // githubLink: "https://github.com/rachitsharma300/Weather-Web-App",
       liveLink: null,
       videoUrl:
         "https://github.com/rachitsharma300/Weather-Web-App/assets/50745070/204eeaac-103e-44d1-9ab8-e01451e1e908",

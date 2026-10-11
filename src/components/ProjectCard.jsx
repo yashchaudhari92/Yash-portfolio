@@ -167,7 +167,7 @@ const ProjectCard = ({
           transition={{ delay: 0.6, duration: 0.5 }}
           className="flex gap-4"
         >
-          {githubLink && (
+          {/* {githubLink && (
             <a
               href={githubLink}
               target="_blank"
@@ -177,7 +177,7 @@ const ProjectCard = ({
               <FiGithub className="text-xl" />
               <span>Code</span>
             </a>
-          )}
+          )} */}
           {liveLink && (
             <a
               href={liveLink}
