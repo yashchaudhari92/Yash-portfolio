@@ -1,141 +1,143 @@
-# Rachit's Portfolio 
-[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://rachitsharma300.github.io/rachit-portfolio)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/rachitsharma300/rachit-portfolio/blob/main/LICENSE)
+# Yash's Portfolio
 
+<p align="center">
+  <img src="https://img.shields.io/badge/React-Vite-blue?logo=react" alt="React and Vite" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-Styling-06B6D4?logo=tailwindcss" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Framer_Motion-Animations-FF0055?logo=framer" alt="Framer Motion" />
+  <img src="https://img.shields.io/badge/Deployment-Vercel-black?logo=vercel" alt="Vercel" />
+</p>
 
-A modern, performant portfolio built with cutting-edge web technologies. Designed to showcase projects with smooth animations and responsive design.
+<p align="center">
+  A modern, responsive developer portfolio showcasing my technical skills, projects, certifications, and professional journey.
+</p>
 
+<p align="center">
+  **[🌐 View Live Portfolio](https://yash-portfolio-omega-pied.vercel.app/)** ·
+  **[💻 GitHub Repository](https://github.com/yashchaudhari92/Yash-portfolio)**
+</p>
+
+---
 
 ## ✨ Features
 
-- **2-Theme System** (Light/Dark)
-- **Animated UI** with Framer Motion
-- **Functional Contact Form** (EmailJS)
-- **Verified Certificates** (GUVI integration)
-- **Responsive Design** (Mobile-first approach)
-- **95+ Lighthouse Score** (Optimized performance)
+- **Responsive Design** — Adapts to desktop, tablet, and mobile screens.
+- **Light and Dark Themes** — Theme-aware styling throughout the portfolio.
+- **Animated UI** — Smooth transitions and interactions powered by Framer Motion.
+- **About Me** — Professional introduction, profile photos, and technology highlights.
+- **Technical Skills** — Categorized skills and proficiency indicators.
+- **Project Showcase** — Project descriptions, live demos, and video demonstrations.
+- **Certifications** — A dedicated section for professional certifications.
+- **GitHub Integration** — Displays GitHub-related profile statistics.
+- **Resume Access** — Allows visitors to download my resume.
+- **Contact Section** — Provides a way for visitors to connect.
 
-## 🛠 Tech Stack
+## 🛠️ Tech Stack
 
-### Core Technologies
-| Category        | Technologies                                                                 |
-|-----------------|------------------------------------------------------------------------------|
-| Frontend        | ![React](https://img.shields.io/badge/React-20232A?logo=react) ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css) ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?logo=framer) |
-| Deployment      | ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?logo=github) |
+| Category | Technologies |
+|---|---|
+| Frontend | React, JavaScript, HTML5, CSS3 |
+| Styling | Tailwind CSS |
+| Animations | Framer Motion |
+| Icons | React Icons |
+| Build Tool | Vite |
+| Version Control | Git and GitHub |
+| Deployment | Vercel |
 
-### Key Dependencies
-```json
-"dependencies": {
-  "react": "^18.2.0",
-  "react-icons": "^4.10.1",
-  "framer-motion": "^10.16.4",
-  "emailjs-com": "^3.2.0",
-  "tailwindcss": "^3.3.0"
-}
-```
-### Getting Started
-Prerequisites
-```
-Node.js ≥16.x
-npm
-Git
-```
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have installed:
+
+- [Node.js](https://nodejs.org/)
+- npm
+- [Git](https://git-scm.com/)
+
 ### Installation
-Clone the repo:
+
+**1. Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/portfolio.git
-cd portfolio
+git clone https://github.com/yashchaudhari92/Yash-portfolio.git
+cd Yash-portfolio
 ```
 
-### Install dependencies:
+**2. Install dependencies**
 
 ```bash
 npm install
 ```
-### Run locally:
+
+**3. Start the development server**
+
 ```bash
 npm run dev
 ```
-### Building for Production
+
+Open the local URL displayed in your terminal, usually `http://localhost:5173`.
+
+### Production Build
+
+To create an optimized production build:
+
 ```bash
 npm run build
 ```
-### Customization Guide
-1. Theme Colors
-Modify tailwind.config.js:
-```js
-theme: {
-  extend: {
-    colors: {
-      'dark': {
-        900: '#0f172a' // Change dark theme base color
-      },
-      'pro': {
-        accent: '#2563eb' // Professional theme accent
-      }
-    }
-  }
-}
-```
-## 2. Certificate Data
-Edit src/data/certifications.js:
-```js
-{
-  id: "GUVI-001",
-  title: "Your New Certification",
-  issuer: "Issuing Organization",
-  date: "YYYY-MM-DD",
-  link: "verification_url",
-  skills: ["Skill 1", "Skill 2"]
-}
-```
-## 3. Project Showcase
-Update src/data/projects.js with:
-```js
-{
-  title: "Project Name",
-  description: "Brief description",
-  tags: ["React", "Node.js"],
-  image: "/project-image.png",
-  github: "https://github.com/your/project",
-  live: "https://live-demo.com"
-}
-```
-### Challenging Parts
-Theme System Implementation
-Requires careful state management across components
-Solution: Used React Context + localStorage persistence
-Certificate Verification Flow
-GUVI links need proper credential IDs
-Tip: Store all certificates in a central JSON file
-Mobile Menu Animations
-Framer Motion requires precise layout measurements
 
+To preview the production build locally:
 
-### Deployment
-Install gh-pages:
 ```bash
-npm install gh-pages --save-dev
+npm run preview
 ```
-### Add to package.json:
-```json
-"homepage": "https://rachitsharma300.github.io/rachit-portfolio",
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-}
-```
-### Deploy:
-```bash
-npm run deploy
-```
-### License
-MIT © Rachit Sharma
 
+The production files are generated in the `dist` directory.
 
-<!--
+## 🎨 Customization
 
-## Demo
-https://github.com/user-attachments/assets/6b598e91-071c-4ba2-8559-be130678cd80
--->
+You can customize the portfolio to suit your own profile.
+
+- **Personal Information:** Update the relevant components in `src/sections/`.
+- **Skills:** Modify the skills and proficiency data in `src/sections/Skills.jsx`.
+- **Projects:** Update project details, links, and video demonstrations in `src/sections/Projects.jsx`.
+- **Certifications:** Update the data and components in `src/sections/Certifications.jsx`.
+- **About Section:** Customize your introduction in `src/sections/About.jsx`.
+- **Resume:** Replace the PDF in the `public` directory and update its corresponding link.
+- **Styling:** Adjust Tailwind CSS classes and the existing theme configuration.
+
+File locations may vary if the project structure changes.
+
+## 🌐 Deployment
+
+This portfolio is deployed using [Vercel](https://vercel.com/).
+
+To deploy your own version:
+
+1. Push the project to a GitHub repository.
+2. Import the repository into Vercel.
+3. Select **Vite** as the framework preset.
+4. Set the build command to `npm run build`.
+5. Set the output directory to `dist`.
+6. Click **Deploy**.
+
+Once GitHub integration is configured, pushes to the production branch can trigger automatic deployments.
+
+## 📄 License and Attribution
+
+This repository is based on the original open-source portfolio project by **Rachit Sharma**.
+
+The original project includes an MIT License. Refer to the [`LICENSE`](LICENSE) file for the applicable license terms and copyright notices.
+
+My repository includes personal customizations, content updates, UI improvements, and project-specific changes. The original author's attribution is retained in accordance with the applicable license.
+
+## 👨‍💻 Author
+
+**Yash Chaudhari**
+
+- GitHub: [@yashchaudhari92](https://github.com/yashchaudhari92)
+- Portfolio: [View Live Portfolio](https://YOUR-VERCEL-DOMAIN.vercel.app)
+
+---
+
+<p align="center">
+  Built with React, Vite, and a passion for software development.
+</p>
