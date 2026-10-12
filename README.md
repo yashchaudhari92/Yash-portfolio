@@ -12,8 +12,13 @@
 </p>
 
 <p align="center">
-  **[🌐 View Live Portfolio](https://yash-portfolio-omega-pied.vercel.app/)** ·
-  **[💻 GitHub Repository](https://github.com/yashchaudhari92/Yash-portfolio)**
+  <a href="https://yash-portfolio-omega-pied.vercel.app/">
+    🌐 View Live Portfolio
+  </a>
+  ·
+  <a href="https://github.com/yashchaudhari92/Yash-portfolio">
+    💻 GitHub Repository
+  </a>
 </p>
 
 ---
