@@ -134,7 +134,7 @@ My repository includes personal customizations, content updates, UI improvements
 **Yash Chaudhari**
 
 - GitHub: [@yashchaudhari92](https://github.com/yashchaudhari92)
-- Portfolio: [View Live Portfolio](https://YOUR-VERCEL-DOMAIN.vercel.app)
+- Portfolio: [View Live Portfolio](https://yash-portfolio-omega-pied.vercel.app/)
 
 ---
 
