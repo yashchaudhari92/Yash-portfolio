@@ -101,6 +101,36 @@ const About = () => {
       ),
       name: "MySQL",
     },
+    {
+      icon: (
+        <img
+          src="https://cdn.simpleicons.org/apachekafka/231F20"
+          alt="Apache Kafka"
+          width="65"
+          height="65"
+          loading="lazy"
+          onError={(e) => {
+            e.currentTarget.style.display = "none";
+          }}
+        />
+      ),
+      name: "Kafka",
+    },
+    {
+      icon: (
+        <img
+          src="https://cdn.simpleicons.org/redis/FF4438"
+          alt="Redis"
+          width="65"
+          height="65"
+          loading="lazy"
+          onError={(e) => {
+            e.currentTarget.style.display = "none";
+          }}
+        />
+      ),
+      name: "Redis",
+    },
 
     {
       icon: (
