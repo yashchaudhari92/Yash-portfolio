@@ -153,12 +153,18 @@ const Skills = () => {
           {category.title}
         </h3>
 
+
         <div
-          className="flex-1 min-h-0 overflow-y-auto overflow-x-hidden pr-2 space-y-3 overscroll-contain skills-scrollbar"
+          className="flex-1 min-h-0 overflow-y-auto overflow-x-hidden pr-2 space-y-3 overscroll-auto skills-scrollbar"
+          style={{
+            WebkitOverflowScrolling: "touch",
+            touchAction: "pan-y",
+          }}
           onWheel={(e) => {
             e.stopPropagation();
           }}
         >
+
           {category.skills.map((skill, i) => (
             <motion.div
               key={i}
