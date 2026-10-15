@@ -110,6 +110,7 @@ export default function Navbar({ onContactClick }) {
                 </li>
               ))}
             </ul>
+            
 
             <div className="absolute bottom-10 left-10">
               <ThemeToggle />
